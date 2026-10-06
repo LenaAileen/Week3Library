@@ -1,19 +1,12 @@
 ﻿using Week3Library;
 
-Book firstBook = new Book();
+Book firstBook = new Book("C# for beginners", "Heathcliff", 4536764);
 // add new book
-Book secondBook = new Book();
+Book secondBook = new Book("Pride and prejudice", "Peader O'Donnell", 889899);
 
-// This is info for a book class
-firstBook.Title = "C# for beginners";
-firstBook.Author = "Heathcliff";
-firstBook.ISBN = 4536764;
+
 
 // call methode
 firstBook.DisplayInfo();
-
-secondBook.Title = "Pride and prejudice";
-secondBook.Author = "Peader O'Donnell";
-secondBook.ISBN = 889899;
 
 secondBook.DisplayInfo();

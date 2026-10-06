@@ -16,6 +16,14 @@ namespace Week3Library
             Console.WriteLine($"Book author: {Author}");
             Console.WriteLine($"Book ISBN: {ISBN}");
        }
+        //parameterised Constructor
+        public Book(string bookTitle,string bookAuthor,int bookISBN)
+        {
+                Title = bookTitle;
+            Author = bookAuthor;
+            ISBN = bookISBN;
+
+    }
 
     }
 
